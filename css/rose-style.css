@@ -1,0 +1,46 @@
+body {
+    background: black;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    min-width: 1500px;
+    overflow: hidden;
+}
+
+.positio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+}
+
+.transparent-box {
+    background-color: rgba(196, 85, 136, 0.8);
+    height: 100vh;
+}
+
+.cap {
+    margin-top: 20%;
+}
+
+.fo {
+    font-family: 'Quicksand', sans-serif;
+}

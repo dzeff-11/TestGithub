@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #e686a8;
+}
+
+.fill-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(now02.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+        
+}
+
+.fill-form h1{
+    margin-top: 100px;
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    font-size: 40px;
+
+}
+
+.fill-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 55px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: "montserrat", sans-serif;
+}
+
+
+.txtb{
+    margin: 20px 0;
+    background: rgba(255,255,255,.5);
+    border-radius: 6px;
+
+}
+
+
+.send-btn{
+    margin-top: 60px; 
+    margin-bottom: 20px;
+    background: #d2527f;
+    color: #fff;
+    border-radius: 44px;
+}
+
+.send-btn:hover{
+    transform: scale(0.96);
+}
+
+.fill-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+
+.fill-form a:hover{
+    background: rgba(0,0,0,.3)
+}
+
+
+
